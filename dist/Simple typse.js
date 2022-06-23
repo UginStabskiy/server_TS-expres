@@ -14,3 +14,14 @@ console.log(x3);
 let isOdd;
 let y = 22;
 isOdd = y % 2 !== 0;
+// Списки і кортежі
+const arr = [" ab ", "  bc  ", "  mn  "];
+arr.push("G1");
+// @ts-ignore
+document.write(arr);
+const arr1 = [1, 6, 9];
+// @ts-ignore
+document.write(arr1);
+const arr4 = [1, 3, 4, 5, "rere"];
+// @ts-ignore
+document.write(arr4);

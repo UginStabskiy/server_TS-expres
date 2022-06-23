@@ -21,3 +21,27 @@ console.log(x3);
 let isOdd: boolean;
 let y:number=22;
 isOdd = y % 2 !== 0;
+
+// Списки і кортежі
+
+const arr: string[] = [" ab ","  bc  ","  mn  "];
+    arr.push("G1")
+    // @ts-ignore
+document.write(arr);
+
+const arr1: number[] = [1,6,9];
+    // @ts-ignore
+document.write(arr1);
+
+//const arr3 : number[] | string[]=[] //чомусь не працює
+//arr3.push( 2,"32")
+
+// Типи
+
+type  MyType = (string|number)[];
+
+const arr4:MyType=[1,3,4,5,"rere"];
+// @ts-ignore
+document.write(arr4);
+
+// Кортежи
