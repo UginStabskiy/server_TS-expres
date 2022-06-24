@@ -25,3 +25,28 @@ document.write(arr1);
 const arr4 = [1, 3, 4, 5, "rere"];
 // @ts-ignore
 document.write(arr4);
+// Кортежи
+const tuple1 = ['abc', 'cd', 4];
+console.log(tuple1);
+const example = [['bc', 'cad', 43]];
+console.log(example);
+const arr5 = ['qwe', 'adc', 888];
+// @ts-ignore
+document.write(arr5);
+let elofarr = arr5[2];
+// @ts-ignore
+document.write(elofarr);
+let elofarr1 = arr5.pop();
+// @ts-ignore
+document.write(elofarr1);
+const obj = { a: 1, b: 2, c: 'abc' };
+// @ts-ignore
+let elofarr2 = obj["b"];
+// @ts-ignore
+document.write(elofarr2);
+const obj1 = { a: 4, b: 'fef', c: 'abcd' };
+console.log(obj1);
+const obj2 = { a: 56546, b: 'fegrgf', c: 'abascd' };
+console.log(obj2);
+const obj3 = { a: 56546, b: 'fegrgf', c: 'fegrgf', n: 4, k: 'fegrgf', m: 'fegrgf' };
+console.log(obj3);
