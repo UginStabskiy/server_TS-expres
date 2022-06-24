@@ -1,9 +1,9 @@
-//type  TypeFactory<x>=x;
+type  TypeFactory<x>=x;
 
-//type MyType = TypeFactory<number>;
+type MyType1 = TypeFactory<number>;
 
-//const some_x: MyType =3456;
-//console.log(some_x)
+const some_x: MyType1 =3456;
+console.log(some_x)
 // масив будь-чого. Не розумію синтаксису
 class ArrayOfAnything <Type> {
     constructor (public collection: Type[]) {}
